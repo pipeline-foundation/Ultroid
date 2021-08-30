@@ -20,10 +20,11 @@
 		"ms-python.vscode-pylance",
 		"VisualStudioExptTeam.vscodeintellicode"
 	],
-	"postCreateCommand": "",
+	"postCreateCommand": "pip install -r requirements.txt",
 	"build": {
 		"dockerfile": "Dockerfile"
-	}
+	},
+	"remoteUser": "vscode"
 }
 
 // Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
