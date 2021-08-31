@@ -21,7 +21,6 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
         with:
-          queries: security-and-quality
           languages: python
 
       - name: Perform CodeQL Analysis
